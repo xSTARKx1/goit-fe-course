@@ -8,17 +8,26 @@ html {
   box-sizing: inherit;
 }
 
+header {
+  margin-bottom: 30px;
+}
+
 .navigation li {
   display: inline-block;
   font-size: 14px;
   font-family: "Playfair Display" serif;
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 400;
+}
+
+.page-nav {
+  padding: 70px 0px;
 }
 
 .navigation {
-  text-align: center;
   padding: 0px;
+  margin: 0px;
+  text-align: center;
 }
 
 .navigation a:hover,
@@ -35,19 +44,10 @@ html {
   margin-right: 110px;
 }
 
-.page-nav {
-  margin-top: 75px;
-  margin-bottom: 102px;
-}
-
 .wrapper {
   width: 900px;
   margin: 0 auto;
-}
-
-.content {
-  display: inline-block;
-  font-size: 0;
+  font-size: 0px;
 }
 
 img {
