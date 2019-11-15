@@ -1,0 +1,377 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0px;
+  margin: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.head-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  min-height: 50px;
+  display: flex;
+  margin-bottom: 128px;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.site-logo {
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #95e1d3;
+  font-family: "Montserrat";
+  margin: 0px;
+  display: flex;
+  align-items: flex-end;
+  line-height: 26px;
+}
+
+.page-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-navigation {
+  width: 490px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.site-navigation li {
+  list-style-type: none;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.nav-list::after {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: #f38181;
+  content: "";
+  transition: width 200ms linear;
+  margin-top: 12px;
+}
+
+.nav-list {
+  text-decoration: none;
+  color: #95e1d3;
+  position: relative;
+  transition: color 200ms linear;
+}
+
+.nav-list:hover,
+.nav-list:focus {
+  color: #f38181;
+}
+
+.nav-list:hover:after,
+.nav-list:focus::after {
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+  color: #333333;
+}
+
+.italic-text {
+  font-family: "Kaushan script";
+  line-height: 46px;
+  font-size: 24px;
+}
+
+.main-title {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  line-height: 46px;
+  font-size: 30px;
+}
+
+.title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
+  margin: 40px auto 66px;
+}
+
+.content-service {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.title-service {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #333333;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.text-service {
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 400;
+  color: #999999;
+}
+
+.service-item {
+  margin-bottom: 100px;
+  width: 382px;
+  min-height: 70px;
+  padding-left: 80px;
+  position: relative;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.service-item:nth-last-child(-n + 3) {
+  margin-bottom: 90px;
+}
+
+.service-item::before {
+  display: block;
+  content: "";
+  height: 32px;
+  width: 100%;
+  left: 22px;
+  top: 0;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.item-clock::before {
+  background-image: url(../images/icons/img1.png);
+}
+
+.item-graph::before {
+  background-image: url(../images/icons/img2.png);
+}
+
+.item-pc::before {
+  background-image: url(../images/icons/img3.png);
+}
+
+.item-book::before {
+  background-image: url(../images/icons/img4.png);
+}
+
+.item-home::before {
+  background-image: url(../images/icons/img5.png);
+}
+
+.item-image::before {
+  background-image: url(../images/icons/img6.png);
+}
+
+.second-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
+  margin: 40px auto 66px;
+}
+
+.team-text {
+  font-family: "Roboto";
+  font-size: 15px;
+  color: #999999;
+  text-align: center;
+  margin: 0 auto 96px;
+  width: 980px;
+  font-weight: 400;
+}
+
+.team-card {
+  width: 380px;
+  min-height: 538px;
+  position: relative;
+}
+
+.team-information {
+  text-align: center;
+}
+
+.team-image {
+  margin-bottom: 30px;
+}
+
+.team-name {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  color: #333333;
+  margin-bottom: 14px;
+}
+
+.workspace {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 15px;
+  color: #999999;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #e5e5e5;
+  margin: 86px auto 10px;
+}
+
+.footer-wrapper {
+  width: 1200px;
+  min-height: 62px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-text {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  font-style: normal;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #f38181;
+  font-style: normal;
+  display: inline-block;
+}
+
+.e-mail {
+  width: 230px;
+  height: 40px;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-style: italic;
+  font-size: 15px;
+  border: solid 1px #e5e5e5;
+  padding: 12px;
+}
+
+.button {
+  width: 150px;
+  height: 40px;
+  background: #95e1d3;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 14px;
+  border: 1px solid#95e1d3;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: "montserrat";
+  font-weight: 700;
+}
+
+.overlay {
+  width: 100%;
+  height: 470px;
+  background-image: -webkit-linear-gradient(
+    90deg,
+    rgba(252, 227, 138, 0.8) 25%,
+    rgba(243, 129, 129, 0.8) 100%
+  );
+  position: absolute;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 200ms linear;
+}
+
+.team-card:hover .overlay {
+  opacity: 1;
+  transform: translate(-10px, -10px);
+  box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
+}
+
+.icon-socials {
+  list-style-type: none;
+  display: flex;
+}
+
+.icon-facebook {
+  background-image: url(../images/socials/facebook.png);
+}
+
+.icon-twitter {
+  background-image: url(../images/socials/twitter.png);
+}
+
+.icon-pinterest {
+  background-image: url(../images/socials/pinterest.png);
+}
+
+.icon-instagram {
+  background-image: url(../images/socials/instagram.png);
+}
+
+.icon-socials a {
+  display: block;
+  width: 55px;
+  height: 56px;
+  background-color: #fce38a;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 200ms linear;
+}
+
+.icon-socials a:hover,
+.icon-socials a:focus {
+  background-color: #95e1d3;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.icon-socials li {
+  margin-right: 1px;
+}
+
+.icon-socials li:last-child {
+  margin-right: 0;
+}
