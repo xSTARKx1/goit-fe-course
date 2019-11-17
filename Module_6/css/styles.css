@@ -219,7 +219,12 @@ img {
 }
 
 .team-image {
-  margin-bottom: 30px;
+  margin-bottom: 30px; 
+  transition: 200ms linear;
+}
+
+.team-card:hover .team-image {
+  transform: translate(-10px, -10px);
 }
 
 .team-name {
@@ -316,6 +321,7 @@ img {
   align-items: center;
   justify-content: center;
   transition: 200ms linear;
+  z-index: 1;
 }
 
 .team-card:hover .overlay {
