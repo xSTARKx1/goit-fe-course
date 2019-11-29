@@ -1,0 +1,231 @@
+@media (min-width: 320px) and (max-width: 659px) {
+  .wrapper {
+    width: 320px;
+    margin: 0 auto;
+  }
+  .loginning-button {
+    margin-bottom: 118px;
+  }
+
+  .second-title {
+    margin-bottom: 20px;
+  }
+
+  .site-logo {
+    margin: 0 auto 36px;
+  }
+
+  .main-title {
+    margin-bottom: 18px;
+    font-size: 30px;
+  }
+
+  .subtitle {
+    padding: 0 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+
+  .find-button {
+    margin-bottom: 80px;
+    padding: 14px 46px;
+  }
+
+  .button-load-wrap {
+    margin-bottom: 56px;
+  }
+
+  .button-search {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 64px;
+  }
+
+  .main-buttons {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .background-img {
+    width: 320px;
+    background-image: url(../image/background/background320.jpg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .background-overlay {
+    background-color: #1a1915;
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+
+  .second-title {
+    text-align: center;
+  }
+
+  .team-list-item {
+    margin: 0 auto 30px;
+    width: 220px;
+  }
+
+  .button-load-wrap {
+    margin: 0 auto 56px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 660px) and (max-width: 939px) {
+  .wrapper {
+    width: 660px;
+    margin: 0 auto;
+  }
+
+  .background-img {
+    max-width: 768px;
+    background-image: url(../image/background/background660.jpg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .background-overlay {
+    background-color: #1a1915;
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+
+  .button-search {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 74px;
+  }
+
+  .main-title {
+    padding: 0 76px;
+    margin-bottom: 30px;
+  }
+
+  .find-button {
+    margin-bottom: 226px;
+    padding: 14px 20px;
+  }
+
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 492px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+
+  .team-list-item {
+    margin-bottom: 60px;
+    width: 236px;
+    padding: 0 10px;
+  }
+
+  .team-list-item:nth-child(2n) {
+    margin-bottom: 40px;
+  }
+
+  .button-load-more {
+    padding: 10px 26px;
+    border-radius: 30px;
+  }
+
+  .button-load-wrap {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 660px) {
+  .site-head {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin: 0 auto 130px;
+  }
+
+  .site-logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .subtitle {
+    margin-bottom: 36px;
+  }
+
+  .second-title {
+    margin-bottom: 34px;
+  }
+}
+
+@media screen and (min-width: 940px) {
+  .wrapper,
+  .main-wrapper {
+    width: 940px;
+    margin: 0 auto;
+  }
+
+  .background-img {
+    max-width: 1440px;
+    background-image: url(../image/background/background940.jpg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .background-overlay {
+    background-color: #1a1915;
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+
+  .site-head {
+    margin-bottom: 130px;
+  }
+
+  .button-search {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 74px;
+  }
+
+  .main-title {
+    padding: 0 200px;
+    margin-bottom: 40px;
+  }
+
+  .find-button {
+    margin-bottom: 214px;
+    padding: 14px 20px;
+  }
+
+  .team-list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .team-list-item {
+    margin-bottom: 40px;
+    width: 220px;
+  }
+
+  .button-load-wrap {
+    margin-bottom: 72px;
+    text-align: center;
+  }
+  .team-info {
+    padding: 0 8px;
+  }
+}
