@@ -161,6 +161,7 @@ img {
   color: #777777;
   font-size: 14px;
   margin-bottom: 122px;
+  padding: 0 24px;
 }
 
 .service-list-item {
@@ -223,7 +224,6 @@ img {
   justify-content: space-between;
   margin-bottom: 30px;
 }
-
 
 .needed:valid {
   outline: 2px solid #2bb62b;
