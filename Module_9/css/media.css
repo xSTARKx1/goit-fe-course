@@ -1,0 +1,73 @@
+@media (min-width: 320px) and (max-width: 659px) {
+  .main-buttons {
+    padding: 20px;
+    margin-bottom: 98px;
+  }
+
+  .site-logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .team-list-item {
+    margin: 0 auto 28px;
+  }
+
+  .button-load-wrap {
+    margin-bottom: 56px;
+  }
+}
+
+@media (min-width: 660px) {
+  .main-title {
+    font-size: 52px;
+  }
+
+  .subtitle {
+    font-size: 24px;
+  }
+
+  .site-head {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin: 0 auto 130px;
+  }
+
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .second-title {
+    margin-bottom: 36px;
+  }
+
+  .find-button {
+    margin-bottom: 230px;
+  }
+
+  .team-list-item:not(:nth-last-child(-n + 2)) {
+    margin-bottom: 50px;
+  }
+
+  .button-load-wrap {
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 940px) {
+  .main-title {
+    margin-bottom: 44px;
+  }
+
+  .subtitle {
+    margin-bottom: 38px;
+  }
+
+  .find-button {
+    margin-bottom: 172px;
+  }
+}
