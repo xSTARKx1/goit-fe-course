@@ -494,7 +494,7 @@ pre code {
 }
 @media (min-width: 320px) {
   .container {
-    max-width: 320px;
+    max-width: 300px;
   }
 }
 @media (min-width: 660px) {

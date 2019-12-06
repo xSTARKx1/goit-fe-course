@@ -52,11 +52,6 @@ h1 {
   margin: 0;
 }
 
-.row {
-  margin-right: -15px;
-  margin-left: -15px;
-}
-
 .site-logo {
   text-transform: uppercase;
   color: #ffffff;
@@ -151,6 +146,7 @@ h1 {
 
 .background-img {
   margin-bottom: 70px;
+  max-width: 100%;
   position: relative;
   background-position: center 0;
   background-repeat: no-repeat;
@@ -206,7 +202,7 @@ button {
 
 .team-list-item {
   list-style-type: none;
-  width: 234px;
+  width: 220px;
 }
 
 .team-name {
