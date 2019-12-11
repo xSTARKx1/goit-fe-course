@@ -1,0 +1,248 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Bold.woff") format("woff"),
+    url("../fonts/Montserrat-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Regular.woff") format("woff"),
+    url("../fonts/Montserrat-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "KaushanScript";
+  src: url("../fonts/KaushanScript-Regular.woff") format("woff"),
+    url("../fonts/KaushanScript-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.woff") format("woff"),
+    url("../fonts/Roboto-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-LightItalic.woff") format("woff"),
+    url("../fonts/Roboto-LightItalic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: italic;
+}
+
+h1 {
+  margin: 0;
+}
+
+.background-image {
+  background-image: linear-gradient(
+      rgba(243, 129, 129, 0.9) 0%,
+      rgba(243, 213, 106, 0.9) 100%
+    ),
+    url(../images/background/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 54px;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 36px;
+  margin-bottom: 180px;
+}
+
+.link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.navigation__logo {
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.navigation__list {
+  list-style-type: none;
+  display: flex;
+  width: 620px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation__item {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.navigation__item .link:hover,
+.navigation__item .link:focus {
+  color: #fce38a;
+}
+
+.navigation__item::after {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: #fce38a;
+  content: "";
+  transition: width 200ms linear;
+  margin-top: 10px;
+}
+
+.navigation__item {
+  position: relative;
+}
+
+.navigation__item:hover:after,
+.navigation__item:focus::after {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.main-title {
+  font-weight: 700;
+  font-size: 150px;
+  line-height: 1;
+  margin-bottom: 110px;
+  color: #ffffff;
+}
+
+.title {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+}
+
+.main-italic {
+  font-family: "KaushanScript";
+  font-weight: 400;
+  font-size: 72px;
+  color: #ffffff;
+  margin: 0 auto;
+  padding: 0 90px;
+  margin-bottom: 40px;
+}
+
+.button {
+  background-color: transparent;
+  border: solid 3px #ffffff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  cursor: pointer;
+  margin-bottom: 176px;
+}
+
+.section-italic {
+  font-family: "KaushanScript";
+  font-weight: 400;
+  font-size: 24px;
+  color: #333333;
+  line-height: 1.5;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #333333;
+}
+
+.section-italic::after {
+  content: "";
+  display: block;
+  position: relative;
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
+  margin: 40px auto 46px;
+}
+
+.service {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.service__item {
+  margin-bottom: 100px;
+  width: 382px;
+  min-height: 70px;
+  padding-left: 80px;
+  position: relative;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.service__item:nth-last-child(-n + 3) {
+  margin-bottom: 90px;
+}
+
+.service__item::before {
+  display: block;
+  content: "";
+  height: 32px;
+  width: 100%;
+  left: 22px;
+  top: 0;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.service__title {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #333333;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.service__text {
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 400;
+  color: #999999;
+}
