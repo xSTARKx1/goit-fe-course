@@ -183,7 +183,7 @@ h1 {
   line-height: 1.5;
 }
 
-.section-title {
+.section__title {
   font-weight: 700;
   font-size: 30px;
   color: #333333;
@@ -245,4 +245,59 @@ h1 {
   font-size: 15px;
   font-weight: 400;
   color: #999999;
+}
+
+.section__subtitle {
+  font-family: "Roboto";
+  font-weight: 400;
+  color: #999999;
+  font-size: 15px;
+  padding: 0 112px;
+  line-height: 1.5;
+  margin-bottom: 94px;
+}
+
+.team-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-list {
+  width: 380px;
+}
+
+.team-list__image {
+  margin-bottom: 28px;
+}
+
+.team-list__name {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.team-list__work {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-style: italic;
+  font-size: 15px;
+  color: #999999;
+}
+
+.team-list__socials {
+  list-style-type: none;
+  display: flex;
+}
+
+.team-list__socials a {
+  display: block;
+  width: 55px;
+  height: 56px;
+  background-color: #fce38a;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 200ms linear;
 }

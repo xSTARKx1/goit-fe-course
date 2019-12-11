@@ -50,7 +50,7 @@
       <section>
         <h2 class="text-center section-italic">
           We work with <br />
-          <span class="title section-title">Amazing Services</span>
+          <span class="title section__title">Amazing Services</span>
         </h2>
         <ul class="service">
           <li class="service__item item-clock">
@@ -100,49 +100,65 @@
       <section>
         <h2 class="text-center section-italic">
           Who we are <br />
-          <span class="title section-title">meet our team</span>
+          <span class="title section__title">meet our team</span>
         </h2>
-        <p>
+        <p class="section__subtitle text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat.
         </p>
-        <article>
-          <div class="overlay">
-            <ul class="icon-socials">
-              <li>
-                <a href="#">
-                  <!-- <svg>
-                    <use href="images/icons/sprite.svg#icon-cart"></use>
-                  </svg> -->
-                </a>
-              </li>
-              <li>
-                <a href="#"> <span class="visually-hidden">Twitter</span></a>
-              </li>
-              <li>
-                <a href="#"> <span class="visually-hidden">Pinterest</span></a>
-              </li>
-              <li>
-                <a href="#"> <span class="visually-hidden">Instagram</span></a>
-              </li>
-            </ul>
-          </div>
-          <img src="./images/team/img_1.jpg" alt="team_1" />
-          <h3>Matthew Dix</h3>
-          <p>Graphic Design</p>
-        </article>
-        <article>
-          <img src="./images/team/img_2.jpg" alt="team_2" />
-          <h3>Christopher Campbell</h3>
-          <p>Branding&#47;UX design</p>
-        </article>
-        <article>
-          <img src="./images/team/img_3.jpg" alt="team_3" />
-          <h3>Michael Fertig</h3>
-          <p>Developer</p>
-        </article>
+        <div class="team-cards">
+          <article class="team-list">
+            <div class="overlay">
+              <ul class="team-list__socials">
+                <li>
+                  <a href="#">
+                    <svg>
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-line"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"></a>
+                </li>
+                <li>
+                  <a href="#"></a>
+                </li>
+                <li>
+                  <a href="#"></a>
+                </li>
+              </ul>
+            </div>
+            <img
+              class="team-list__image"
+              src="./images/team/img_1.jpg"
+              alt="team_1"
+            />
+            <h3 class="team-list__name text-center">Matthew Dix</h3>
+            <p class="team-list__work text-center">Graphic Design</p>
+          </article>
+          <article class="team-list">
+            <img
+              class="team-list__image"
+              src="./images/team/img_2.jpg"
+              alt="team_2"
+            />
+            <h3 class="team-list__name text-center">Christopher Campbell</h3>
+            <p class="team-list__work text-center">Branding&#47;UX design</p>
+          </article>
+          <article class="team-list">
+            <img
+              class="team-list__image"
+              src="./images/team/img_3.jpg"
+              alt="team_3"
+            />
+            <h3 class="team-list__name text-center">Michael Fertig</h3>
+            <p class="team-list__work text-center">Developer</p>
+          </article>
+        </div>
       </section>
     </main>
     <footer>
