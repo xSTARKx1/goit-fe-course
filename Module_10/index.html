@@ -30,10 +30,18 @@
               <a href="#" class="link">Contact</a>
             </li>
             <li class="navigation__item">
-              <a href="#" class="link">Shoping-cart</a>
+              <a href="#" class="link navigation-icons">
+                <svg>
+                  <use href="./images/icons/sprite.svg#icon-cart"></use>
+                </svg>
+              </a>
             </li>
             <li class="navigation__item">
-              <a href="#" class="link">Zoom</a>
+              <a href="#" class="link navigation-icons"
+                ><svg>
+                  <use href="./images/icons/sprite.svg#icon-glass"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </nav>
@@ -53,42 +61,60 @@
           <span class="title section__title">Amazing Services</span>
         </h2>
         <ul class="service">
-          <li class="service__item item-clock">
+          <li class="service__item">
+            <svg>
+              <use href="./images/icons/sprite.svg#icon-alarm"></use>
+            </svg>
             <h3 class="service__title">Photography</h3>
             <p class="service__text">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
               ex repellat officiis.
             </p>
           </li>
-          <li class="service__item item-graph">
+          <li class="service__item">
+            <svg>
+              <use href="./images/icons/sprite.svg#icon-line"></use>
+            </svg>
             <h3 class="service__title">Web design</h3>
             <p class="service__text">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
               ex repellat officiis.
             </p>
           </li>
-          <li class="service__item item-pc">
+          <li class="service__item">
+            <svg>
+              <use href="./images/icons/sprite.svg#icon-computer"></use>
+            </svg>
             <h3 class="service__title">Creativity</h3>
             <p class="service__text">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
               ex repellat officiis.
             </p>
           </li>
-          <li class="service__item item-book">
+          <li class="service__item">
+            <svg>
+              <use href="./images/icons/sprite.svg#icon-book"></use>
+            </svg>
             <h3 class="service__title">Seo</h3>
             <p class="service__text">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
               ex repellat officiis.
             </p>
           </li>
-          <li class="service__item item-home">
+          <li class="service__item">
+            <svg>
+              <use href="./images/icons/sprite.svg#icon-home"></use>
+            </svg>
             <h3 class="service__title">Css&#47;Html</h3>
             <p class="service__text">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
               ex repellat officiis.
             </p>
           </li>
-          <li class="service__item item-image">
+          <li class="service__item">
+            <svg>
+              <use href="./images/icons/sprite.svg#icon-image"></use>
+            </svg>
             <h3 class="service__title">digital</h3>
             <p class="service__text">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
@@ -97,7 +123,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="section">
         <h2 class="text-center section-italic">
           Who we are <br />
           <span class="title section__title">meet our team</span>
@@ -120,17 +146,38 @@
                   </a>
                 </li>
                 <li>
-                  <a href="#"></a>
+                  <a href="#"
+                    ><svg>
+                      <use href="./images/icons/sprite.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li>
-                  <a href="#"></a>
+                  <a href="#"
+                    ><svg>
+                      <use
+                        href="./images/icons/sprite.svg#icon-pinterest"
+                      ></use>
+                    </svg>
+                  </a>
                 </li>
                 <li>
-                  <a href="#"></a>
+                  <a href="#"
+                    ><svg>
+                      <use
+                        href="./images/icons/sprite.svg#icon-instagram"
+                      ></use>
+                    </svg>
+                  </a>
                 </li>
               </ul>
             </div>
             <img
+              srcset="
+                ./images/team/img_1.jpg    380w,
+                ./images/team/img_1@2x.jpg 760w
+              "
+              sizes="380px"
               class="team-list__image"
               src="./images/team/img_1.jpg"
               alt="team_1"
@@ -139,7 +186,48 @@
             <p class="team-list__work text-center">Graphic Design</p>
           </article>
           <article class="team-list">
+            <div class="overlay">
+              <ul class="team-list__socials">
+                <li>
+                  <a href="#">
+                    <svg>
+                      <use href="./images/icons/sprite.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><svg>
+                      <use href="./images/icons/sprite.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><svg>
+                      <use
+                        href="./images/icons/sprite.svg#icon-pinterest"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><svg>
+                      <use
+                        href="./images/icons/sprite.svg#icon-instagram"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
             <img
+              srcset="
+                ./images/team/img_2.jpg    380w,
+                ./images/team/img_2@2x.jpg 760w
+              "
+              sizes="380px"
               class="team-list__image"
               src="./images/team/img_2.jpg"
               alt="team_2"
@@ -148,7 +236,48 @@
             <p class="team-list__work text-center">Branding&#47;UX design</p>
           </article>
           <article class="team-list">
+            <div class="overlay">
+              <ul class="team-list__socials">
+                <li>
+                  <a href="#">
+                    <svg>
+                      <use href="./images/icons/sprite.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><svg>
+                      <use href="./images/icons/sprite.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><svg>
+                      <use
+                        href="./images/icons/sprite.svg#icon-pinterest"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><svg>
+                      <use
+                        href="./images/icons/sprite.svg#icon-instagram"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
             <img
+              srcset="
+                ./images/team/img_3.jpg    380w,
+                ./images/team/img_3@2x.jpg 760w
+              "
+              sizes="380px"
               class="team-list__image"
               src="./images/team/img_3.jpg"
               alt="team_3"
@@ -160,7 +289,7 @@
       </section>
     </main>
     <footer>
-      <div class="footer-wrapper">
+      <div class="footer-wrapper wrapper">
         <address>
           <p class="footer-text">
             &copy; 2016 MoGo free PSD template by
@@ -171,6 +300,7 @@
           <p>
             <input placeholder="Your Email..." class="e-mail" /><input
               type="submit"
+              class="button-submit"
               value="subscribe"
             />
           </p>
